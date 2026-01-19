@@ -5,6 +5,7 @@ import PadroesComportamentais.Robot;
 import PadroesCriacionais.SingletonEager;
 import PadroesCriacionais.SingletonLazy;
 import PadroesCriacionais.SingletonLazyHolder;
+import PadroesEstruturais.Facade;
 
 public class Main {
     public static void main(String[] args) {
@@ -49,8 +50,9 @@ public class Main {
     System.out.println("--- Strategy ---");
 
     //Facade
-
-
+    System.out.println("\n--- Facade ---");
+    Facade.salvarCLiente("lucas","52000000");
+    System.out.println("--- Facade ---");
 
 
     }
