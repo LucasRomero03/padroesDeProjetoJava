@@ -1,3 +1,5 @@
+package PadroesCriacionais;
+
 public class SingletonLazy {
 
     private  static SingletonLazy instance;
